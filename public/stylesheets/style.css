@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.header {
+  align-items: center;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.39);
+}
+
+.header .logo {
+  width: 128px;
+}
+
+.header .menu {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 5px;
+}
+
+.header a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.header .auth {
+  width: 128px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 5px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 200px;
+  background-color: #242837;
+  color: #ffffff;
+}
+
+.title-anchor-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.text-lv1-footer {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text-lv2-footer {
+  font-size: 14px;
+}
+
+.text-lv2-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.landing-banner-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: ;
+  height: 400px;
+  background-color: #e5dedd;
+  border: 1px;
+}
+
+.introduce-title-banner {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0px solid;
+}
+
+.introduce-title-banner .line-1 {
+  font-family: "Gentium Plus", serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.introduce-title-banner .line-2 {
+  font-family: "Gentium Plus", serif;
+  font-weight: 700;
+  font-size: 62px;
+  font-style: italic;
+}
+
+.shopping-now-btn-elm {
+  margin-top: 20px;
+  background-color: #453acd;
+  font-size: 16px;
+  width: 130px;
+  height: 50px;
+  border-radius: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping-now-btn-elm a {
+  text-decoration: none;
+  color: white;
+}
+
+.introduce-image-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 0px solid;
+}
+
+.introduce-image-banner img {
+  width: auto;
+  height: 90%;
+}
+
+.content {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  /* background-color: #453acd; */
+}
+
+.hot-collection {
+  display: flex;
+  justify-content: center;
+}
+
+.hot-collection .col {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 350px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-1-img-ln img {
+  width: 200px;
+}
+
+.col-1-text-ln {
+  font-family: "Gentium Plus", serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.product-overview-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-overview-title {
+  font-family: "Gentium Plus", serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.product-overview-elm {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.product-box {
+  width: 280px;
+  height: 400px;
+}
+
+.product-box img {
+  width: 280px;
+}
+
+.product-box .description {
+  font-weight: 700;
+}
